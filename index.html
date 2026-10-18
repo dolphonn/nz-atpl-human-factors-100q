@@ -142,6 +142,8 @@
   }
   .map-toggle svg{transition:transform .2s ease}
   .map-panel.collapsed .map-toggle svg{transform:rotate(180deg)}
+  .map-panel.collapsed{display:flex;align-items:center}
+  .map-panel.collapsed .map-head{width:100%;margin-bottom:0}
   .map-panel.collapsed .qmap{display:none}
   .qmap{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;container-type:inline-size;margin-inline:auto;width:100%;max-width:330px}
   .cell{
